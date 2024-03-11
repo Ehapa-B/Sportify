@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.btn,
+.btn-prem,
+.btn-secondary,
+.btn-outline {
+  background-color: black;
+  border: none;
+  color: #fff;
+  padding: 16px 35px;
+  border-radius: 500px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: 'Helvetica Neue',;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-secondary {
+  text-transform: lowercase;
+  margin-top: 10px;
+  background: rgba(13, 114, 234, 1);
+  color: #fff;
+  border-radius: 6px ;
+  font-weight: bold;
+  border: 1px solid rgba(13, 114, 234, 1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn-prem {
+  margin-top: 10px;
+  background-color: transparent;
+  color: rgba(13, 114, 234, 1);
+  border-radius: 6px ;
+  font-weight: bold;
+  border: 1px solid rgba(13, 114, 234, 1);
+}
+
+.mini {
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 22px;
+}
+
+hr {
+  background-color: rgba(204, 204, 204, 1);
+  width: 237px;
+  height: 2px;
+  margin-top: 100px;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 22px;
+}
+@media (max-width: 500px) {
+  .btn-outline, .btn {
+    padding: 10px 20px;
+    text-wrap: nowrap;
   }
 }
+section.green {
+  background-color: rgb(84, 217, 82);
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.plan {
+  background-color: white;
+  color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.plan .plans {
+  display: grid;
+  
+}
+.button-group {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 500px) {
+  .button-group {
+      display: block;
+      flex-direction: column;
+      gap: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }

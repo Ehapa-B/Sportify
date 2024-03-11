@@ -20,7 +20,7 @@ code {
   --app-block-padding: 180px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   :root {
     --app-block-padding: 30px;
   }

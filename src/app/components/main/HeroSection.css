@@ -52,7 +52,7 @@ h6 a {
   background-color: transparent;
   padding: 1em 2em 1em 2em;
   border-radius: 50px;
-  border: 2px solid #000000;
+  border: 2px solid #ffff;
   font-family: Helvetica;
   font-size: 0.8rem;
   font-weight: 700;
@@ -61,4 +61,26 @@ h6 a {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 390px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .GetStartedBtn{
+    margin-right: 0;
+  }
+
+  .SeeOtherPlans {
+    align-items: center;
+  }
+
+  h6  {
+    padding-bottom: 27px;
+  }
 }

@@ -1,12 +1,17 @@
 import './App.css';
-import { LandingPageHeader } from './components/LandingPageHeader';
+import { LandingHeader } from './components/Header/LandingHeader';
 import { HeroSection } from './components/main/HeroSection';
+import { Features } from './components/Features';
+import { Premium } from './components/Premium';
+
 
 export function App() {
     return (
         <div>
-          <LandingPageHeader />
+          <LandingHeader />
           <HeroSection />
+          <Features />
+          <Premium />
         </div>
     );
   
