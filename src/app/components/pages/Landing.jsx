@@ -7,7 +7,7 @@ import { HeroSection } from "../main/HeroSection";
 
 export const Landing = () => {
   return (
-   <div>
+   <div> 
      <LandingHeader />
      <HeroSection />
       <Features />

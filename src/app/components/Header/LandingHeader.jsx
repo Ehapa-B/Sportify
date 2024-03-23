@@ -53,10 +53,10 @@ const HeaderNavigation = (props) => {
       </li>
       <li className='hidden-mobile'>|</li>
       <li className='active'> 
-        <a href="#/Sign up">Sign up</a>
+        <a href="#/Sign up">Signup</a>
       </li>
       <li className='active'> 
-        <a href="#/Log in">Login in</a>
+        <a href="#/Login">Login</a>
       </li>     
     </ul>
   )
