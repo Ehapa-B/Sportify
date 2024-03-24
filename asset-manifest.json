@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Sportify/static/css/main.292cf069.css",
+    "main.js": "/Sportify/static/js/main.00d63880.js",
+    "static/js/453.07b51e5c.chunk.js": "/Sportify/static/js/453.07b51e5c.chunk.js",
+    "static/media/diners.svg": "/Sportify/static/media/diners.78b7050c2d9e60da27b0e081ab6779d2.svg",
+    "static/media/play.svg": "/Sportify/static/media/play.44a78f305f04b908324089f3942f6194.svg",
+    "static/media/paytm.svg": "/Sportify/static/media/paytm.051e701ec8490721f77346018491aa46.svg",
+    "static/media/spotify.svg": "/Sportify/static/media/spotify.e34d424e08e3fe8e72b189b449596ec9.svg",
+    "static/media/ups.svg": "/Sportify/static/media/ups.ad594d950a5d1cdd7deefcf6350ac0ce.svg",
+    "static/media/offline.svg": "/Sportify/static/media/offline.71cd85138a90227cf6f9f1ee258b9fe7.svg",
+    "static/media/spotifyb.svg": "/Sportify/static/media/spotifyb.97a77d3c58a13bb7bbe0f06d0837342d.svg",
+    "static/media/pay.svg": "/Sportify/static/media/pay.134d04e9b44abbd82ceb447dfa380422.svg",
+    "static/media/ad-free.svg": "/Sportify/static/media/ad-free.4cbf6cec4d9bc79296012cfc54dac79e.svg",
+    "static/media/mastercard.svg": "/Sportify/static/media/mastercard.5d1696b40a8cd7e77f5a7a93928f89fa.svg",
+    "static/media/visa.svg": "/Sportify/static/media/visa.c70604f74aa98d7f23afbd245d7e2ff4.svg",
+    "static/media/masters.svg": "/Sportify/static/media/masters.75ab477cfa5f9d921bf7412252b559dc.svg",
+    "index.html": "/Sportify/index.html",
+    "static/media/menu.svg": "/Sportify/static/media/menu.4cd229ec97e5709d98d74e2e47a8d089.svg",
+    "static/media/ticks.svg": "/Sportify/static/media/ticks.f0a11afb909821014e53.svg",
+    "main.292cf069.css.map": "/Sportify/static/css/main.292cf069.css.map",
+    "main.00d63880.js.map": "/Sportify/static/js/main.00d63880.js.map",
+    "453.07b51e5c.chunk.js.map": "/Sportify/static/js/453.07b51e5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.292cf069.css",
+    "static/js/main.00d63880.js"
+  ]
+}
