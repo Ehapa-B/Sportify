@@ -12,6 +12,7 @@ export const PricingSection = () => {
     return (
         <section className={style.section}>
           <h2 className={style.title}>Pick your Premium</h2>
+          <a id="home"></a>
           <p className={style.description}>Listen without limits on your phone,
            speaker, and other devices.
           </p>

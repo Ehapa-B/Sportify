@@ -101,3 +101,17 @@
         gap: 100px;
     }
 }
+
+.gototop {
+    position: fixed;
+    background-color: rgb(61, 46, 177);
+    padding: 20px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.gototop a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}

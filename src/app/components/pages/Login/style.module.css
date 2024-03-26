@@ -1,0 +1,113 @@
+.header,
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--app-padding);
+    padding-block: 15px;
+    height: 60px;
+    border: 1px solid #D9DADC;
+}
+
+.main {
+    height: auto;
+    flex-direction: column;
+    border-bottom: none;
+    max-width: 470px;
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+    padding-top: 50px;
+    color: #000;
+    font-family: "Inter", sans-serif;
+}
+
+.google svg {
+    width: 15px;
+    height: 15px;
+}
+
+.main button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    font-family: "Inter",sans-serif;
+}
+
+.main button:hover {
+    opacity: 1;
+    transform: scale(1.01);
+}
+.facebook {
+    border: 1px solid (0, 0, 0, 0.2) ;
+    background-color: #1877F2;
+}
+
+.google {
+    border: 1px solid #878787;
+    color: #6A6A6A;
+    background-color: transparent;
+}
+
+.divider {
+    border: 1px solid #D9DADC;
+    text-align: center;
+    height: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 0px;
+}
+
+.divider span {
+    background-color: #fff;
+    padding:  5px 20px;
+    color: #000;
+}
+
+.main p {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.forgot {
+    font-size: 16px;
+    font-family: "helvetica";
+    color: #000;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    max-width: fit-content;
+    background-color: #1ED760;
+    color: #000;
+}
+
+.flex input:checked {
+    accent-color:  yellow;
+}
+
+.flex input[type='checkbox'] {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.flex > div {
+    display: flex;
+}

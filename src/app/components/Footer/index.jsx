@@ -34,6 +34,9 @@ export const Footer = () => {
                  <p>© 2023 Spotify AB</p>
               </div>
          </div>
+         <div className={style.gototop}>
+          <a href='#top-page'>Go to top</a>
+         </div>
         </footer>
     )
 }

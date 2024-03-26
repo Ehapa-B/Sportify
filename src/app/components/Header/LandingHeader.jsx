@@ -3,19 +3,17 @@ import React from 'react';
 import { Logo } from '../Logo/Logo';
 import {ReactComponent as MenuIcon} from '../../assets/images/icons/menu.svg'
 
-function useState(initialValue) {
-  let val =initialValue
-  function change(newValue) {
-    val = newValue
-  }
-  return [val, change]
-}
+// function useState(initialValue) {
+//   let val =initialValue
+//   function change(newValue) {
+//     val = newValue
+//   }
+//   return [val, change]
+// }
 
 export const LandingHeader = () => {
     const [showMenu, setMenu] = React.useState(false);
 
-    // const showMenu = state[0];
-    // const setMenu = state[1];
 
     const toggleMenu = () => {
       //  setMenu(showMenu === false)
@@ -43,17 +41,17 @@ const HeaderNavigation = (props) => {
   return (
     <ul className={props.className}>
       <li>
-        <a href="#/Premium">Premium</a>
+        <a href="/Premium">Premium</a>
       </li>
       <li>
-        <a href="#/Support">Support</a>
+        <a href="/Support">Support</a>
       </li>
       <li> 
-        <a href="#/Download">Download</a>
+        <a href="/Download">Download</a>
       </li>
       <li className='hidden-mobile'>|</li>
       <li className='active'> 
-        <a href="#/Sign up">Signup</a>
+        <a href="/Sign up">Signup</a>
       </li>
       <li className='active'> 
         <a href="#/Login">Login</a>
